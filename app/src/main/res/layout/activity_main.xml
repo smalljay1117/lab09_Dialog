@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.lab09_dialog.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="點選按鈕將彈出視窗"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialog"
+        android:textAllCaps="false"
+        android:text="皮曦兒"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogYesNo"
+        android:textAllCaps="false"
+        android:text="放空妹"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogYesNoCancel"
+        android:textAllCaps="false"
+        android:text="調皮曦"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogItems"
+        android:textAllCaps="false"
+        android:text="迷糊曦"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogMultiChoice"
+        android:textAllCaps="false"
+        android:text="婧瑀曦"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogSingleChoice"
+        android:textAllCaps="false"
+        android:text="靜曦兒"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickMyDialogFragment"
+        android:textAllCaps="false"
+        android:text="MyDialogFragment"/>
+
+</LinearLayout>
+
